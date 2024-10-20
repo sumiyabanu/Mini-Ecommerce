@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Ecommerce</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+            <!-- <p class="logo">LOGO</p>
+            <div class="cart">
+                <i class="fa-solid fa-cart-plus"></i>
+                <p id="count">0</p>
+            </div> -->
+    </div>
+    <div class="container"> 
+        <p class="logo"><b>Mini Ecommerce</b></p>
+            <div class="cart">
+                <i class="fa-solid fa-cart-plus"></i>
+                <p id="count">0</p>
+            </div>
+        <div id="alerts"></div>
+        <div class="productcont">
+             <div class="product">
+                 <h3 class="productname">Iphone</h3>
+                 <p>Product description excerpt...</p>
+                 <img src="./assets/images/image1.jpg" width="50px">
+                 <p class="price">$5.05</p>
+                 <button class="addtocart">Add To Cart</button>
+             </div>
+             <div class="product">
+                 <h3 class="productname">OPPO</h3>
+                 <p>Product description excerpt...</p>
+                 <img src="./assets/images/image2.jpg" width="50px">
+
+                 <p class="price">$8.50</p>
+                 <button class="addtocart">Add To Cart</button>
+             </div>
+             <div class="product">
+                 <h3 class="productname">Camera</h3>
+                 <p>Product description excerpt...</p>
+                 <img src="./assets/images/image3.jpg" width="90px">
+
+                 <p class="price">$10.50</p>
+                 <button class="addtocart">Add To Cart</button>
+             </div>
+             <div class="product">
+                <h3 class="productname">Smart Watch</h3>
+                <p>Product description excerpt...</p>
+                <img src="./assets/images/image4.jpg" width="90px">
+
+                <p class="price">$11.50</p>
+                <button class="addtocart">Add To Cart</button>
+            </div>
+            <div class="product">
+                <h3 class="productname">Headset</h3>
+                <p>Product description excerpt...</p>
+                <img src="./assets/images/image5.jpg" width="90px">
+
+                <p class="price">$6.50</p>
+                <button class="addtocart">Add To Cart</button>
+            </div>
+             </div>
+             <div class="cart-container">
+               <h2>Cart</h2>
+               <table>
+                 <thead>
+                   <tr>
+                   <th><strong>Product</strong></th>
+                   <th><strong>Price</strong></th>
+                 </tr>
+                 </thead>
+                 <tbody id="carttable">
+                 </tbody>
+               </table>
+               <hr>
+               <table id="carttotals">
+                 <tr>
+                   <td><strong>Items</strong></td>
+                   <td><strong>Total</strong></td>
+                 </tr>
+                 <tr>
+                   <td>x <span id="itemsquantity">0</span></td>
+                  
+                   <td>$<span id="total">0</span></td>
+                 </tr></table>
+     
+                 
+               <div class="cart-buttons">  
+                 <button id="emptycart">Empty Cart</button>
+                 <button id="checkout">Checkout</button>
+               </div>
+             </div>
+     </div>
+
+
+
+
+
+
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
